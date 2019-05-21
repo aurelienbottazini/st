@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Operator Mono Book:pixelsize=28:antialias=true:autohint=true";
+static char *font = "Operator Mono Book:pixelsize=32:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
@@ -118,8 +118,8 @@ static const char *colorname[] = {
  */
 unsigned int defaultfg = 7;
 unsigned int defaultbg = 0;
-static unsigned int defaultcs = 14;
-static unsigned int defaultrcs = 15;
+static unsigned int defaultcs = 256;
+static unsigned int defaultrcs = 257;
 
 /*
  * Default shape of cursor
