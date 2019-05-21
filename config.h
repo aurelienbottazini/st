@@ -192,6 +192,8 @@ static Shortcut shortcuts[] = {
         { MODKEY,               XK_o,           externalpipe,   {.v = openurlcmd } },
         { MODKEY,               XK_l,           externalpipe,   {.v = copyurlcmd } },
         { MODKEY,               XK_y,           externalpipe,   {.v = copyoutput } },
+	{ ShiftMask,            XK_Page_Up,     kscrollup,      {.i = -1} },
+	{ ShiftMask,            XK_Page_Down,   kscrolldown,    {.i = -1} },
 };
 
 /*
