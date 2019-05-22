@@ -88,27 +88,23 @@ unsigned int alpha = 0xee;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	"#282a36",  /*  0: black    */
-	"#ff5555",  /*  1: red      */
+	"#ff8787",  /*  1: red      */
 	"#50fa7b",  /*  2: green    */
-	"#fafa8c",  /*  3: yellow   */
-	"#268bd2",  /*  4: blue     */
-	"#ffb86a",  /*  5: magenta  */
-	"#8be9fd",  /*  6: cyan     */
+	"#f1fa8c",  /*  3: yellow   */
+	"#26b5fd",  /*  4: blue     */
+	"#ff79c6",  /*  5: magenta  */
+	"#26d7fd",  /*  6: cyan     */
 	"#f8f8f2",  /*  7: white    */
-	"#6272a4",  /*  8: brblack  */
+	"#44475a",  /*  8: brblack  */
 	"#ffb86c",  /*  9: brred    */
 	"#50fa7b",  /* 10: brgreen  */
-	"#fafa8c",  /* 11: bryellow */
-	"#839496",  /* 12: brblue   */
+	"#f1fa8c",  /* 11: bryellow */
+	"#59c6fd",  /* 12: brblue   */
 	"#bd93f9",  /* 13: brmagenta*/
 	"#8be9fd",  /* 14: brcyan   */
-	"#44475a",  /* 15: brwhite  */
+	"#8094d6",  /* 15: brwhite  */
 
         [255] = 0,
-
-        /* more colors can be added after 255 to use with DefaultXX */
-        "#f56d9e",
-        "black",
 };
 
 
@@ -118,7 +114,7 @@ static const char *colorname[] = {
  */
 unsigned int defaultfg = 7;
 unsigned int defaultbg = 0;
-static unsigned int defaultcs = 256;
+static unsigned int defaultcs = 5;
 static unsigned int defaultrcs = 257;
 
 /*
